@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#container {
+    display: block;
+    margin: auto;
+    width: 520px;
+    margin-top: 60px;
+}
+.box {
+    transition-duration: 1s;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: #000;
+}
+.box-hover{
+    transition-duration: 0.1s;
+    background-color: #555;
+}
+
+.row {
+    height: 30px;
+}
