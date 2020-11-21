@@ -22,4 +22,25 @@ html, body {
 
 .row {
     height: 30px;
+    text-align: center;
+}
+button {
+    transition-duration: 0.2s;
+    background-color: #d6d6d6;
+    border: 1px solid #c2c2c2;
+    height: 40px;
+    width: 150px;
+    line-height: 36px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: auto;
+    display: block;
+    margin-top: 40px;
+    outline: none;
+}
+
+button:hover {
+    transition-duration: 0.2s;
+    background-color: #bdbcbc;
+    cursor: pointer;
 }
